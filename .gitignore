@@ -1,0 +1,7 @@
+*.deb
+*.pkg.tar.*
+*.html
+!LICENSE.uTools.html
+pkg/
+src/
+outputs/
