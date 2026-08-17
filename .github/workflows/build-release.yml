@@ -30,7 +30,7 @@ jobs:
         run: |
           useradd --create-home builder
           chown -R builder:builder "$GITHUB_WORKSPACE"
-          runuser -u builder -- makepkg -sf --noconfirm
+          runuser -u builder -- makepkg -df --noconfirm
       - uses: actions/upload-artifact@v4
         with:
           name: arch
